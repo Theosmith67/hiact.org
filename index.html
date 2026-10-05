@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Old Keep — Mapp of ye Kingdome of HI</title>
+<style>
+  :root { --gold: #d4a94e; --ink: #0d1117; --parchment: #f2e8c9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d1117; color: #e8e0c8; font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+  header { text-align: center; padding: 4rem 1.5rem 2rem; background: radial-gradient(ellipse at center, #1a2333 0%, #0d1117 70%); border-bottom: 2px solid var(--gold); }
+  header .kicker { color: var(--gold); letter-spacing: .35em; text-transform: uppercase; font-size: .8rem; }
+  header h1 { font-size: clamp(2rem, 6vw, 3.5rem); margin: .8rem 0; color: var(--parchment); }
+  header p { max-width: 640px; margin: 0 auto; color: #b8ab8a; font-style: italic; }
+  .map-wrap { max-width: 1100px; margin: 2.5rem auto; padding: 0 1.5rem; }
+  .map-frame { border: 3px solid var(--gold); border-radius: 12px; overflow: hidden; background: #111; box-shadow: 0 0 60px rgba(212,169,78,.15); position: relative; }
+  .map-preview { display: block; position: relative; text-decoration: none; }
+  .map-preview img { width: 100%; height: auto; display: block; }
+  .map-preview .overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(13,17,23,.45); transition: background .25s; }
+  .map-preview:hover .overlay { background: rgba(13,17,23,.25); }
+  .map-preview .overlay span { background: var(--gold); color: #0d1117; font-weight: bold; padding: .9rem 2.4rem; border-radius: 8px; font-size: 1.1rem; letter-spacing: .05em; }
+  .cta { text-align: center; margin: 1.8rem 0 3rem; }
+  .cta a { display: inline-block; background: var(--gold); color: #0d1117; font-weight: bold; padding: .9rem 2.4rem; border-radius: 8px; text-decoration: none; font-size: 1.1rem; letter-spacing: .05em; }
+  .cta a:hover { background: #e8c06a; }
+  .territories { max-width: 1100px; margin: 0 auto 3rem; padding: 0 1.5rem; }
+  .territories h2 { text-align: center; color: var(--gold); letter-spacing: .2em; text-transform: uppercase; font-size: 1rem; margin-bottom: 1.5rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.2rem; }
+  .card { background: #141b28; border: 1px solid #2a3548; border-radius: 10px; padding: 1.4rem; transition: transform .2s, border-color .2s; }
+  .card:hover { transform: translateY(-4px); border-color: var(--gold); }
+  .card h3 { color: var(--parchment); margin-bottom: .4rem; font-size: 1.15rem; }
+  .card p { color: #9a8f74; font-size: .95rem; margin-bottom: .8rem; }
+  .card a { color: var(--gold); text-decoration: none; font-weight: bold; }
+  .card a:hover { text-decoration: underline; }
+  footer { text-align: center; padding: 2.5rem 1.5rem; border-top: 2px solid var(--gold); color: #8a7f63; font-size: .9rem; }
+  footer a { color: var(--gold); }
+  .thesis { max-width: 720px; margin: 0 auto 3rem; padding: 0 1.5rem; text-align: center; font-style: italic; color: #b8ab8a; }
+  .thesis strong { color: var(--parchment); font-style: normal; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">The Old Keep</div>
+  <h1>Mapp of ye Kingdome of HI</h1>
+  <p>Every kingdom needs a map. This one charts a campaign, not a country — the territories of the HI Act, each one a real place you can visit.</p>
+</header>
+
+<div class="map-wrap">
+  <div class="map-frame">
+    <a class="map-preview" href="https://muse.ai/s/mapp-of-ye-kingdome-of-hi-xff6jhexbxyxecb" target="_blank" rel="noopener">
+      <img src="map-preview.jpg" alt="Mapp of ye Kingdome of HI — preview">
+      <div class="overlay"><span>Open the Full Map &#8599;</span></div>
+    </a>
+  </div>
+  <div class="cta">
+    <a href="https://muse.ai/s/mapp-of-ye-kingdome-of-hi-xff6jhexbxyxecb" target="_blank" rel="noopener">Open the Full Map &#8599;</a>
+  </div>
+</div>
+
+<p class="thesis"><strong>In an agentic age, the agent must belong to the person.</strong><br>Who owns the tap? Explore the territories below — each one is a live outpost of the campaign.</p>
+
+<section class="territories">
+  <h2>The Territories</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>The Landing Page</h3>
+      <p>The front door of the kingdom — art-directed and built as a single page.</p>
+      <a href="https://muse.ai/s/hi-act-landing-page-nxn6ac65xp9xhxd" target="_blank" rel="noopener">Visit &#8599;</a>
+    </div>
+    <div class="card">
+      <h3>The Forge — GitHub</h3>
+      <p>The code library: where the kingdom's builds are kept and revisited.</p>
+      <a href="https://github.com/theosmith67" target="_blank" rel="noopener">Visit &#8599;</a>
+    </div>
+    <div class="card">
+      <h3>The Podcast</h3>
+      <p>Three episodes strong: Don't Call Me AI, Water Not Oil, Don't Fear the Machine.</p>
+      <a href="https://open.spotify.com/show/19vqk4nMkFqDobA9Gks5pV" target="_blank" rel="noopener">Listen &#8599;</a>
+    </div>
+    <div class="card">
+      <h3>The Writings — Substack</h3>
+      <p>Essays from the campaign, including "Who owns the tap?"</p>
+      <a href="https://theosmith67.substack.com" target="_blank" rel="noopener">Read &#8599;</a>
+    </div>
+    <div class="card">
+      <h3>The Store</h3>
+      <p>Kingdom colors you can wear — first revenue arm of the cause.</p>
+      <a href="https://hi-act-shop.fourthwall.com" target="_blank" rel="noopener">Shop &#8599;</a>
+    </div>
+    <div class="card">
+      <h3>The Video</h3>
+      <p>Thirty-two seconds: a firefighter, a child, a baby — and one question.</p>
+      <a href="https://www.youtube.com/channel/UCwv9qjrrk831tAjt1Z4D6EQ" target="_blank" rel="noopener">Watch &#8599;</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Built by <strong>Theodore D. Smith</strong> — landing pages, campaign graphics, and cross-platform content.<br>
+  From the author of <em>The H.I. Act: Covenant Edition</em> — "Don't Call Me AI."<br><br>
+  <a href="https://muse.ai/s/hi-act-landing-page-nxn6ac65xp9xhxd">The HI Act</a> &nbsp;·&nbsp; Who owns the tap?</p>
+</footer>
+
+</body>
+</html>
